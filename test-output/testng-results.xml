@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="11704" started-at="2020-06-18T01:13:08Z" finished-at="2020-06-18T01:13:19Z">
+    <groups>
+    </groups>
+    <test name="SeleniumTests" duration-ms="11704" started-at="2020-06-18T01:13:08Z" finished-at="2020-06-18T01:13:19Z">
+      <class name="testcases.ClassA">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcases.ClassA@1bc39f8]" name="testcase1" duration-ms="6463" started-at="2020-06-18T01:13:08Z" finished-at="2020-06-18T01:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="methodclose()[pri:0, instance:testcases.ClassA@1bc39f8]" name="methodclose" is-config="true" duration-ms="277" started-at="2020-06-18T01:13:14Z" finished-at="2020-06-18T01:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodclose -->
+      </class> <!-- testcases.ClassA -->
+      <class name="testcases.ClassB">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:testcases.ClassB@e3c1cd]" name="testcase2" duration-ms="4751" started-at="2020-06-18T01:13:14Z" finished-at="2020-06-18T01:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="methodclose()[pri:0, instance:testcases.ClassB@e3c1cd]" name="methodclose" is-config="true" duration-ms="153" started-at="2020-06-18T01:13:19Z" finished-at="2020-06-18T01:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodclose -->
+      </class> <!-- testcases.ClassB -->
+    </test> <!-- SeleniumTests -->
+  </suite> <!-- Suite1 -->
+</testng-results>
