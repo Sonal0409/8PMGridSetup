@@ -24,10 +24,7 @@ public class ChromeGridTest {
 		ChromeOptions options = new ChromeOptions();
 		
 		options.merge(cap);
-		
-	/*	System.setProperty("webdriver.chrome.driver",
-				"C:\\Grid\\chromedriver.exe");*/
-		
+			
 		String huburl="http://192.168.1.4:4444/wd/hub";
 		
 		WebDriver driver= new RemoteWebDriver(new URL(huburl), options);

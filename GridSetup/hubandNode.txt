@@ -1,0 +1,17 @@
+java -jar C:\Grid\selenium-server-standalone-3.141.59.jar -role hub
+
+
+
+
+java -Dwebdriver.gecko.driver="C:\Grid\geckodriver.exe" -Dwebdriver.chrome.driver="C:\Grid\chromedriver.exe" -Dwebdriver.ie.driver="C:\Grid\IEDriverServer.exe" -jar C:\Grid\selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:\Grid\node1.json
+
+
+java -Dwebdriver.chrome.driver="C:\Grid\chromedriver.exe" -jar C:\Grid\selenium-server-standalone-3.141.59.jar -role node -hub 
+
+
+http://192.168.1.4:4444/grid/register
+
+
+In different machine
+create a folder which will have details of chromedriver, gecko driver, ie driver and standalone server, Json file
+than you will execute this command in cmd prompt
